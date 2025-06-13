@@ -1,0 +1,8 @@
+[
+  { "name": "T-shirt noir", "price": 20, "url": "/produits/tshirt-noir", "image": "" },
+  { "name": "T-shirt blanc", "price": 22, "url": "/produits/tshirt-blanc", "image": "" },
+  { "name": "Sweat à capuche gris", "price": 35, "url": "/produits/sweat-gris", "image": "" },
+  { "name": "Casquette bleue", "price": 15, "url": "/produits/casquette-bleue", "image": "" },
+  { "name": "Sac en toile", "price": 18, "url": "/produits/sac-toile", "image": "" },
+  { "name": "Mug personnalisé", "price": 12, "url": "/produits/mug", "image": "" }
+]
