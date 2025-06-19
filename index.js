@@ -1,18 +1,13 @@
 const nunjucks = require('nunjucks');
 const fs = require('fs');
-
-const articles = [
-  { title: 'Introduction à Nunjucks', date: '2025-06-01' },
-  { title: 'Templates dynamiques', date: '2025-06-05' },
-  { title: 'Syntaxe de base', date: '2025-06-10' },
-];
+const jobs = require('./data/products.json');
 
 // Configure Nunjucks
 nunjucks.configure('templates', { autoescape: true });
 
-// Rendu
-const result = nunjucks.render('index.njk', { articles });
+// Rendu du template
+const result = nunjucks.render('index.njk', { jobs });
 
 // Écriture dans un fichier
-fs.writeFileSync('output.html', result);
-console.log('Fichier output.html généré');
+fs.writeFileSync('index.html', result);
+console.log('Fichier index.html généré');

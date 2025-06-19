@@ -1,8 +1,29 @@
 [
-  { "name": "T-shirt noir", "price": 20, "url": "/produits/tshirt-noir", "image": "" },
-  { "name": "T-shirt blanc", "price": 22, "url": "/produits/tshirt-blanc", "image": "" },
-  { "name": "Sweat à capuche gris", "price": 35, "url": "/produits/sweat-gris", "image": "" },
-  { "name": "Casquette bleue", "price": 15, "url": "/produits/casquette-bleue", "image": "" },
-  { "name": "Sac en toile", "price": 18, "url": "/produits/sac-toile", "image": "" },
-  { "name": "Mug personnalisé", "price": 12, "url": "/produits/mug", "image": "" }
+  {
+    "title": "Développeur Full Stack",
+    "company": "TechCorp",
+    "location": "Paris",
+    "type": "CDI",
+    "description": "Recherche développeur full stack expérimenté pour rejoindre notre équipe innovante. Expérience requise avec JavaScript, React et Node.js.",
+    "date": "Posté il y a 2 jours",
+    "url": "#"
+  },
+  {
+    "title": "Chef de Projet Digital",
+    "company": "Agence Web",
+    "location": "Lyon",
+    "type": "CDI",
+    "description": "Coordonner les projets web et mobiles, gérer les équipes et assurer la qualité des livrables. Expérience en gestion de projet obligatoire.",
+    "date": "Posté il y a 3 jours",
+    "url": "#"
+  },
+  {
+    "title": "Designer UX/UI",
+    "company": "Design Studio",
+    "location": "Marseille",
+    "type": "CDD",
+    "description": "Créer des interfaces utilisateur intuitives et modernes. Maîtrise de Figma et Adobe XD requise.",
+    "date": "Posté il y a 1 jour",
+    "url": "#"
+  }
 ]
